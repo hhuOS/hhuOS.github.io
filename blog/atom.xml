@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hhuOS.github.io/blog</id>
+    <title>hhuOS Blog</title>
+    <updated>2018-01-22T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://hhuOS.github.io/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest hhuOS news and events.</subtitle>
+    <logo>https://hhuOS.github.io/img/logo.png</logo>
+    <rights>Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</rights>
+    <entry>
+        <title type="html"><![CDATA[Meeting 13]]></title>
+        <id>https://hhuOS.github.io/blog/2018/01/22/Meeting-13.html</id>
+        <link href="https://hhuOS.github.io/blog/2018/01/22/Meeting-13.html">
+        </link>
+        <updated>2018-01-22T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Virtual Memory Managment</strong></p>
+<ul>
+<li>Stack switch on bios call to certain stack at 0xC0400000</li>
+</ul>
+<p><strong>Filesystem</strong></p>
+<ul>
+<li>Wrapping FatFS Library to C++ finished</li>
+</ul>
+<p><strong>Misc</strong></p>
+<ul>
+<li>Various fixes</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 12]]></title>
+        <id>https://hhuOS.github.io/blog/2018/01/15/Meeting-12.html</id>
+        <link href="https://hhuOS.github.io/blog/2018/01/15/Meeting-12.html">
+        </link>
+        <updated>2018-01-15T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Virtual Memory Managment</strong></p>
+<ul>
+<li>Merging <em>feature/paging</em> branch into master</li>
+</ul>
+<p><strong>Filesystem</strong></p>
+<ul>
+<li>Wrapping FatFS Library to C++</li>
+</ul>
+<p><strong>Misc</strong></p>
+<ul>
+<li>Bug-Fixing</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 11]]></title>
+        <id>https://hhuOS.github.io/blog/2018/01/08/Meeting-11.html</id>
+        <link href="https://hhuOS.github.io/blog/2018/01/08/Meeting-11.html">
+        </link>
+        <updated>2018-01-08T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Virtual Memory Management</strong></p>
+<ul>
+<li><p>some more bugs pending</p>
+<ul>
+<li>merging will be delayed</li>
+</ul></li>
+</ul>
+<p><strong>Modules</strong></p>
+<ul>
+<li>modules can be loaded dynamically</li>
+<li>symbol table is loading at system startup</li>
+</ul>
+<p><strong>Interrupts</strong></p>
+<ul>
+<li><p>handling has been modified</p>
+<ul>
+<li>first level handler</li>
+</ul></li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 10]]></title>
+        <id>https://hhuOS.github.io/blog/2017/12/11/Meeting-10.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/12/11/Meeting-10.html">
+        </link>
+        <updated>2017-12-11T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Virtual Memory</strong></p>
+<ul>
+<li>I/O memory management implemented</li>
+</ul>
+<p><strong>File system</strong></p>
+<ul>
+<li>bug fixes (memory leaks)</li>
+</ul>
+<p><strong>USB block devices</strong></p>
+<ul>
+<li>read, write, and plugin working on native systems</li>
+</ul>
+<p><strong>Misc</strong></p>
+<ul>
+<li>Jochen Peter canceled his involvement</li>
+</ul>
+<p><strong>Event Handling</strong></p>
+<ul>
+<li></li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 9]]></title>
+        <id>https://hhuOS.github.io/blog/2017/12/04/Meeting-9.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/12/04/Meeting-9.html">
+        </link>
+        <updated>2017-12-04T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Virtual Memory</strong></p>
+<ul>
+<li>management of physical and logical memory working</li>
+</ul>
+<p><strong>File system</strong></p>
+<ul>
+<li>mount command working</li>
+<li>elf loader working (but API missing)</li>
+</ul>
+<p><strong>UHCI</strong></p>
+<ul>
+<li>reading from USB working in qemu but not native</li>
+</ul>
+<p><strong>I/O-Manager</strong></p>
+<ul>
+<li>thread creation</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 8]]></title>
+        <id>https://hhuOS.github.io/blog/2017/11/27/Meeting-8.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/11/27/Meeting-8.html">
+        </link>
+        <updated>2017-11-27T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>I/O-Manager</strong></p>
+<ul>
+<li>application thread will block on I/O and register I/O even object
+(containing state for I/O, e.g. buffer ptr, as well as a pointer to the thread object)</li>
+<li>interrupts will deblock application thread</li>
+<li>later we might split interru</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 7]]></title>
+        <id>https://hhuOS.github.io/blog/2017/11/20/Meeting-7.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/11/20/Meeting-7.html">
+        </link>
+        <updated>2017-11-20T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>UHCI</strong></p>
+<ul>
+<li>configuration can be read</li>
+<li>endpoints are found</li>
+<li>next step: bulk transfer for block devices</li>
+<li>not yet working on real hardware</li>
+</ul>
+<p><strong>VFS</strong></p>
+<ul>
+<li>mounting FAT paritions is working</li>
+<li>top-level directory implementation unclear (real vs. pseudo fi</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 6]]></title>
+        <id>https://hhuOS.github.io/blog/2017/11/13/Meeting-6.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/11/13/Meeting-6.html">
+        </link>
+        <updated>2017-11-13T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>VFS</strong></p>
+<ul>
+<li>/dev directory allows device access for hard discs</li>
+<li>next steps include mounting of file systems</li>
+</ul>
+<p><strong>AHCI</strong></p>
+<ul>
+<li>PIO mode working</li>
+</ul>
+<p><strong>UHCI</strong></p>
+<ul>
+<li>USB bus scan working</li>
+</ul>
+<p><strong>Doxygen</strong></p>
+<ul>
+<li>will be used for source code docmentation</li>
+</ul>
+<p>**Virtual</p>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 5]]></title>
+        <id>https://hhuOS.github.io/blog/2017/11/06/Meeting-5.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/11/06/Meeting-5.html">
+        </link>
+        <updated>2017-11-06T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>AHCI</strong></p>
+<ul>
+<li>BIOS update did not help on the x60 machines</li>
+<li>will be tested with other hardware</li>
+</ul>
+<p><strong>Locks</strong></p>
+<ul>
+<li>there seem to be an issue with spin locks</li>
+<li>semaphores based on masking interrupts are working but shall be replaced in the future by</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 4]]></title>
+        <id>https://hhuOS.github.io/blog/2017/10/30/Meeting-4.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/10/30/Meeting-4.html">
+        </link>
+        <updated>2017-10-30T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Process- and memory managemend</strong></p>
+<ul>
+<li>Kernel is mapped at 3GB</li>
+<li>first step with 4MB pages is realized</li>
+<li>BIOS-calls are causing problems: the switch to Realmode requires disabled paging, but the next instruction-address in EIP is not valid after</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 3]]></title>
+        <id>https://hhuOS.github.io/blog/2017/10/23/Meeting-3.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/10/23/Meeting-3.html">
+        </link>
+        <updated>2017-10-23T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>Project state</strong></p>
+<ul>
+<li>Merging of existing features in git is near-complete</li>
+</ul>
+<p><strong>Decisions</strong></p>
+<ul>
+<li><p>Documentation</p></li>
+<li><p>Important facts shall be documented in text (compact)</p></li>
+<li><p>use of Markdown-Files</p></li>
+<li><p>ATA Taskfile-based implementation for block</p></li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 2]]></title>
+        <id>https://hhuOS.github.io/blog/2017/10/16/Meeting-2.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/10/16/Meeting-2.html">
+        </link>
+        <updated>2017-10-16T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p><strong>ToDos until next week</strong></p>
+<ol>
+<li>Every group takes some notices about their ideas/plans for
+the implementation.</li>
+<li>Merge some already implemented features from the different team members
+into hhuOS.</li>
+</ol>
+<p><strong>Assignment of the planned features</strong></p>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meeting 1]]></title>
+        <id>https://hhuOS.github.io/blog/2017/10/09/Meeting-1.html</id>
+        <link href="https://hhuOS.github.io/blog/2017/10/09/Meeting-1.html">
+        </link>
+        <updated>2017-10-09T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Brainstorming about features for hhuOS</p>
+<p><strong>General</strong></p>
+<ul>
+<li>Is it complex to port an existing C-library (newlib)?</li>
+<li>Which file-format, linker and system-call interfsce shall we provide?</li>
+<li>Different memory management for processes and kernel/driver?</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
+</feed>

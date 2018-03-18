@@ -1,0 +1,32 @@
+<html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Meeting 4 · hhuOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="Meeting 4 · hhuOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://hhuOS.github.io/blog/2017/10/30/Meeting-4.html"/><meta property="og:description" content="**Process- and memory managemend**"/><link rel="shortcut icon" href="/img/boot_logo.svg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://hhuOS.github.io/blog/atom.xml" title="hhuOS Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://hhuOS.github.io/blog/feed.xml" title="hhuOS Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.png"/><h2 class="headerTitle">hhuOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/doc_overview.html" target="_self">Docs</a></li><li class=""><a href="/docs/doc_overview.html" target="_self">Code Documentation</a></li><li class=""><a href="/en/help.html" target="_self">Help</a></li><li class="siteNavGroupActive"><a href="/blog" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Recent Posts</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>Recent Posts</h3><ul><li class="navListItem"><a class="navItem" href="/blog/2018/01/22/Meeting-13.html">Meeting 13</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/01/15/Meeting-12.html">Meeting 12</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/01/08/Meeting-11.html">Meeting 11</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/12/11/Meeting-10.html">Meeting 10</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/12/04/Meeting-9.html">Meeting 9</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer documentContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1><a href="/blog/2017/10/30/Meeting-4.html">Meeting 4</a></h1><p class="post-meta">October 30, 2017</p><div class="authorBlock"></div></header><div><span><p><strong>Process- and memory managemend</strong></p>
+<ul>
+<li>Kernel is mapped at 3GB</li>
+<li>first step with 4MB pages is realized</li>
+<li>BIOS-calls are causing problems: the switch to Realmode requires disabled paging, but the next instruction-address in EIP is not valid after disabling</li>
+<li>possible solution: crate an extra address-sapce via 4mb-paging with the Kernel mapped at 0GB and 3GB - turning off paging should be no problem then</li>
+<li>this solution might sound bad considering performance, but the switch to Realmode has negative impact on performance in general</li>
+</ul>
+<p><strong>Filesystem</strong></p>
+<ul>
+<li>there are problems with control of the HDD on real hardware</li>
+<li>VFS is basically working -&gt; mount-Logic is the next step</li>
+</ul>
+<p><strong>Network</strong></p>
+<ul>
+<li>Network: Code of the ROM has to be located after booting</li>
+</ul>
+<p><strong>Miscellaneous</strong></p>
+<ul>
+<li><p>Assembler-Code is divided into several files and restructured</p></li>
+<li><p>more changes expected for paging-implementation</p></li>
+<li><p>Fallback from VGA to CGA-Mode does not work on real hardware</p></li>
+<li><p>Sempahore should be improved with use of a Spinlock</p></li>
+<li><p>existing Spinlock should be used for this</p></li>
+</ul>
+</span></div></div></div><div class="blog-recent"><a class="button" href="/blog">Recent Posts</a></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="hhuOS" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc_overview.html">Getting Started with the Documentation</a><a href="/docs/en/doc_overview.html">Code Documentation</a></div><div><h5>Community</h5><a href="http://stackoverflow.com/questions/tagged/" target="_blank">Stack Overflow</a><a href="http://hhuos.slack.com/">Project Chat on Slack</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/hhuos/hhuos">GitHub</a></div></section><section class="copyright">Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</section></footer></div></body></html>
