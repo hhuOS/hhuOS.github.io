@@ -1,0 +1,12 @@
+{
+  "docs": {
+    "Overview": ["doc_overview"],
+    "Memory Managment and Paing": ["paging_mm", "kernel_heap", "user_heap", "physical_mem", "bios_call"],
+    "Processes and Threads": ["process_thread_overview", "scheduler", "process", "thread"],
+    "Filesystem": ["fs_overview", "fat", "vfs"],
+    "GUI": ["gui_overview", "vesa", "color"]
+  },
+  "api": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
