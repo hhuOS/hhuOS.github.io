@@ -22,3 +22,8 @@ start-server:
 		echo "Dependencies are missing - please run 'make install-deps' first"; \
 	fi; \
 	}
+
+build-and-deploy:
+	@{ \
+	echo "Empty"; \
+	}
