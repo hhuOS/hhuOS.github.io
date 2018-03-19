@@ -29,11 +29,13 @@ function pageUrl(page, language) {
 class Feature extends React.Component {
     render() {
         return (
-            <div className="pluginWrapper">
+            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', padding: '18px 0px'}} className="pluginWrapper">
                 <div>
                     <h2>{this.props.title}</h2>
                     <p>{this.props.content}</p>
-                    <object data={this.props.image} width="30%"/>
+                </div>
+                <div>
+                    <img src={this.props.image}/>
                 </div>
             </div>
         );
@@ -114,7 +116,7 @@ const Block = props => (
 );
 
 const Features = props => (
-    <Container padding={"top"}>
+    <Container>
         <Feature title="Paging" content="Higher Half Kernel" image={imgUrl('paging_logo.svg')}/>
         <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules." image={imgUrl('module_loader.png')}/>
     </Container>
@@ -122,8 +124,7 @@ const Features = props => (
 
 const FeatureCallout = props => (
   <div
-    className="productShowcaseSection paddingBottom"
-    style={{textAlign: 'center'}}>
+    className="productShowcaseSection paddingBottom">
     <h2>Feature Callout</h2>
     <MarkdownBlock>These are a few features of this project</MarkdownBlock>
   </div>
