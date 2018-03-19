@@ -97,13 +97,13 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href={docUrl('doc_overview.html')}>Documentation</Button>
-            <Button href={docUrl('doc_overview.html')}>Code Documentation</Button>
             <Button href={siteConfig.repoUrl}>Contribute on Github</Button>
           </PromoSection>
         </div>
       </SplashContainer>
     );
   }
+  // TODO add Codedocumentation as Button to PromoSection
 }
 
 const Block = props => (

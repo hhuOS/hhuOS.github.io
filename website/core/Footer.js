@@ -38,9 +38,7 @@ class Footer extends React.Component {
             <a href={this.docUrl('doc_overview.html', this.props.language)}>
               Getting Started with the Documentation
             </a>
-            <a href={this.docUrl('doc_overview.html', this.props.language)}>
-              Code Documentation
-            </a>
+
           </div>
           <div>
             <h5>Community</h5>
@@ -64,5 +62,5 @@ class Footer extends React.Component {
     );
   }
 }
-
+// TODO add code documentation to docs folder
 module.exports = Footer;
