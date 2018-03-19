@@ -24,6 +24,15 @@ start-server:
 	}
 
 build-and-deploy:
+ifndef GIT_USER
+	$(error GIT_USER is undefined)
+endif
 	@{ \
-	echo "Empty"; \
+	status=$$(git status --porcelain); \
+	if test "x$${status}" = x; then \
+		cd website; \
+		GIT_USER=${GIT_USER} CURRENT_BRANCH=development USE_SSH=true npm run publish-gh-pages; \
+	else \
+		echo "Please commit or stash your unstaged changes!\n$${status}"; \
+	fi; \
 	}

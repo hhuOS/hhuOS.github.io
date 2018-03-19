@@ -5,3 +5,4 @@ lib/core/MetadataBlog.js
 website/translated_docs
 website/yarn.lock
 website/node_modules
+website/build
