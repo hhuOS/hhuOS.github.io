@@ -1,4 +1,10 @@
 {
+  "description": "A website for hhuOS.",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hhuOS/hhuOS.github.io.git"
+  },
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -10,5 +16,8 @@
   },
   "devDependencies": {
     "docusaurus": "^1.0.9"
+  },
+  "dependencies": {
+    "npm": "^5.7.1"
   }
 }
