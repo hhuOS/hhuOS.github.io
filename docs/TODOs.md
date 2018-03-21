@@ -1,7 +1,5 @@
-# Open Issues:
-
 ## Network
-    - Driver for certain Ethernet adapter
+    - Driver for certain network cards
     - Network protocols (Stack: TCP, IP, ARP, ...)
 
 ## GUI
@@ -14,7 +12,7 @@
     - Ring Protection
 
 ## MISC
-    - Adapt to multicore (APIC, ....)
+    - Multicore (APIC, Scheduler, ....)
     - Long Mode
     - UEFI
     - Use UEFI drivers
