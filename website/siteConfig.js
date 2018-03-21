@@ -14,6 +14,7 @@ const siteConfig = {
     headerLinks: [
         {doc: 'doc_overview', label: 'Docs'},
          /*TODO: Add code doc to header link*/
+        {doc: 'TODOs', label: "ToDo's"},
         {page: 'help', label: 'Help'},
         {blog: true, label: 'Blog'},
     ],
