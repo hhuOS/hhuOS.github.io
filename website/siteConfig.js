@@ -13,7 +13,7 @@ const siteConfig = {
     projectName: 'hhuOS',
     headerLinks: [
         {doc: 'doc_overview', label: 'Docs'},
-         /*TODO: Add code doc to header link*/
+        /*TODO: Add code doc to header link*/
         {doc: 'TODOs', label: "ToDo's"},
         {page: 'help', label: 'Help'},
         {blog: true, label: 'Blog'},
@@ -41,6 +41,40 @@ const siteConfig = {
     scripts: ['https://buttons.github.io/buttons.js'],
     // You may provide arbitrary config keys to be used as needed by your template.
     repoUrl: 'https://github.com/hhuos/hhuos',
+    team: [
+        {
+            name: "Burak Akgül",
+            type: "Developer",
+            github: "https://github.com/bur-ak94",
+            email: "b.akguel94@gmx.de"
+        },
+        {
+            name: "Christian Gesse",
+            type: "Developer",
+            github: "https://github.com/chges100",
+            email: "christian.gesse@hhu.de"
+        },
+        {
+            name: "Fabian Ruhland",
+            type: "Developer",
+            github: "https://github.com/faruh100",
+            email: "fabian.ruhland@hhu.de"
+        },
+        {
+            name: "Filip Krakowski",
+            type: "Developer",
+            github: "https://github.com/filkra",
+            email: "filip.krakowski@hhu.de"
+        },
+        {
+            name: "Michael Schoettner",
+            type: "Coordinator",
+            github: "https://github.com/mschoett",
+            email: "michael.schoettner@hhu.de"
+        }
+    ],
+    contributor: ""
 };
+
 
 module.exports = siteConfig;

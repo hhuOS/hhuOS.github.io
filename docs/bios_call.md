@@ -3,7 +3,6 @@ id: bios_call
 title: Bios Call
 ---
 
-# BIOS-calls
 ## Overview
 hhuOS provides the possibility to invoke BIOS-calls since they are used to determine the amount of usable physical memory and to set up VESA graphic modes. Due to the fact that hhuOS runs in protected mode using Paging as a memory abstraction, some work is included to switch into realmode for a BIOS-call.
 Everything that has to do with BIOS-calls is encapsulated in one static class called `BIOS` and some assembler code contained in `interrupt.asm`. Additionally, a seperate segment is set up in the GDT for address `0x24000`. This is the segment that is used during the BIOS-call.

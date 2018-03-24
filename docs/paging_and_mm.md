@@ -3,8 +3,6 @@ id: paging_mm
 title: Memory and Paging
 ---
 
-# Memory and Paging
-
 ## Introduction
 hhuOS makes use of Paging (which is available on all modern x86-CPUs) to abstract virtual memory from the physical memory installed in the system. Since hhuOS is only 32-bit compatible at the current state of development, a total virtual memory of 4GB is available for the system. In this section we will describe how the virtual memory in hhuOS is divided into different parts, which memory managers take care for the different memory sections and how the paging system is integrated into the operating system.
 
