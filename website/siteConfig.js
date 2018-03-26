@@ -7,7 +7,7 @@
 
 const siteConfig = {
     title: 'hhuOS' /* title for your website */,
-    tagline: 'A website for hhuOS2',
+    tagline: 'A website for hhuOS',
     url: 'https://hhuOS.github.io' /* your website url */,
     baseUrl: '/' /* base url for your project */,
     projectName: 'hhuOS',
