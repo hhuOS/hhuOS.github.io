@@ -10,6 +10,7 @@
     "fat": "FAT",
     "fs_overview": "Overview",
     "gui_overview": "Overview",
+    "modules": "Modules",
     "paging_mm": "Memory and Paging",
     "process_thread_overview": "Overview",
     "process": "Process",
@@ -26,6 +27,7 @@
     "Memory Managment and Paing": "Memory Managment and Paing",
     "Processes and Threads": "Processes and Threads",
     "Filesystem": "Filesystem",
+    "Components": "Components",
     "GUI": "GUI"
   },
   "pages-strings": {
