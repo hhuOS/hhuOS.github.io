@@ -23,6 +23,7 @@
 <url> <loc>https://hhuOS.github.io/docs/fat.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/fat.html" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/fs_overview.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/fs_overview.html" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/gui_overview.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/gui_overview.html" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/modules.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/modules.html" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/paging_mm.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/paging_mm.html" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/process_thread_overview.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/process_thread_overview.html" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/process.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/process.html" /> </url>
