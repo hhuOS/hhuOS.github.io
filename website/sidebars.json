@@ -1,7 +1,7 @@
 {
   "docs": {
     "Overview": ["doc_overview"],
-    "Memory Managment and Paing": ["paging_mm", "bios_call"],
+    "Memory Managment and Paging": ["paging_mm", "bios_call"],
     "Processes and Threads": ["process_thread_overview", "scheduler", "process", "thread"],
     "Filesystem": ["fs_overview", "fat", "vfs"],
     "Components": ["modules"],

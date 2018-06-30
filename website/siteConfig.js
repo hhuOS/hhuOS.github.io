@@ -9,6 +9,7 @@ const siteConfig = {
     title: 'hhuOS' /* title for your website */,
     tagline: 'A website for hhuOS',
     url: 'https://hhuOS.github.io' /* your website url */,
+    cleanUrl: true,
     baseUrl: '/' /* base url for your project */,
     projectName: 'hhuOS',
     headerLinks: [
@@ -18,14 +19,15 @@ const siteConfig = {
         {page: 'help', label: 'Help'},
         {blog: true, label: 'Blog'},
     ],
+	onPageNav: 'separate',
     /* path to images for header/footer */
-    headerIcon: 'img/logo.png',
-    footerIcon: 'img/logo.png',
-    favicon: 'img/boot_logo.svg',
+    headerIcon: 'img/logo_v2_light.svg',
+    footerIcon: 'img/logo_v2_dark.svg',
+    favicon: 'img/logo_v2_dark.svg',
     /* colors for website */
     colors: {
-        primaryColor: '#001234',
-        secondaryColor: '#003366',
+        primaryColor: '#006AB3',
+        secondaryColor: '#D9DADB',
     },
     // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
     copyright:
@@ -35,10 +37,14 @@ const siteConfig = {
     organizationName: 'hhuOS', // or set an env variable ORGANIZATION_NAME
     projectName: 'hhuOS.github.io', // or set an env variable PROJECT_NAME
     highlight: {
-        // Highlight.js theme to use for syntax highlighting in code blocks
-        theme: 'default',
-    },
-    scripts: ['https://buttons.github.io/buttons.js'],
+		theme: 'atom-one-dark',
+	},
+	scripts: [
+		'https://buttons.github.io/buttons.js',
+		'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+		'/js/code-blocks-buttons.js',
+	],
+	stylesheets: ['/css/code-blocks-buttons.css'],
     // You may provide arbitrary config keys to be used as needed by your template.
     repoUrl: 'https://github.com/hhuos/hhuos',
     team: [

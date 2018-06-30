@@ -29,21 +29,20 @@ class Footer extends React.Component {
                                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                                 alt={this.props.config.title}
                                 width="66"
-                                height="58"
                             />
                         )}
                     </a>
                     <div>
                         <h5>Docs</h5>
                         <a href={this.docUrl('doc_overview.html', this.props.language)}>
-                            Getting Started with the Documentation
+                            Overview
                         </a>
 
                     </div>
                     <div>
                         <h5>Community</h5>
                         <a
-                            href="http://stackoverflow.com/questions/tagged/"
+                            href="http://stackoverflow.com/questions/tagged/hhuOS"
                             target="_blank">
                             Stack Overflow
                         </a>
