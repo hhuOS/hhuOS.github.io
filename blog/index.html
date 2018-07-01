@@ -1,10 +1,27 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Blog · hhuOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="Blog · hhuOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://hhuOS.github.io/index.html"/><meta property="og:description" content="A website for hhuOS"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/boot_logo.svg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://hhuOS.github.io/blog/atom.xml" title="hhuOS Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://hhuOS.github.io/blog/feed.xml" title="hhuOS Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class=""><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo.png" alt="hhuOS"/><h2 class="headerTitleWithLogo">hhuOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/doc_overview.html" target="_self">Docs</a></li><li class=""><a href="/docs/TODOs.html" target="_self">ToDo&#x27;s</a></li><li class=""><a href="/en/help.html" target="_self">Help</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/blog" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Recent Posts</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>Recent Posts</h3><ul><li class="navListItem"><a class="navItem" href="/blog/2018/01/22/Meeting-13.html">Meeting 13</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/01/15/Meeting-12.html">Meeting 12</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/01/08/Meeting-11.html">Meeting 11</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/12/11/Meeting-10.html">Meeting 10</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/12/04/Meeting-9.html">Meeting 9</a></li></ul></div></div></section></div><script>
-          var toggler = document.getElementById('navToggler');
-          var nav = document.getElementById('docsNav');
-          toggler.onclick = function() {
-            nav.classList.toggle('docsSliderActive');
-          };
-        </script></nav></div><div class="container mainContainer documentContainer postContainer blogContainer"><div class="wrapper"><div class="posts"><div class="post"><header class="postHeader"><h1><a href="/blog/2018/01/22/Meeting-13.html">Meeting 13</a></h1><p class="post-meta">January 22, 2018</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory Managment</strong></p>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Blog · hhuOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="A website for hhuOS"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Blog · hhuOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://hhuOS.github.io/index.html"/><meta property="og:description" content="A website for hhuOS"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/logo_v2_dark.svg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="alternate" type="application/atom+xml" href="https://hhuOS.github.io/blog/atom.xml" title="hhuOS Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://hhuOS.github.io/blog/feed.xml" title="hhuOS Blog RSS Feed"/><link rel="stylesheet" href="/css/code-blocks-buttons.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-blocks-buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="blog"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo_v2_light.svg" alt="hhuOS"/><h2 class="headerTitleWithLogo">hhuOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/doc_overview" target="_self">Docs</a></li><li class=""><a href="/docs/TODOs" target="_self">ToDo&#x27;s</a></li><li class=""><a href="/en/help" target="_self">Help</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/blog" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul><li class="navListItem"><a class="navItem" href="/blog/2018/01/22/Meeting-13">Meeting 13</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/01/15/Meeting-12">Meeting 12</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/01/08/Meeting-11">Meeting 11</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/12/11/Meeting-10">Meeting 10</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/12/04/Meeting-9">Meeting 9</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="posts"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2018/01/22/Meeting-13">Meeting 13</a></h1><p class="post-meta">January 22, 2018</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory Managment</strong></p>
 <ul>
 <li>Stack switch on bios call to certain stack at 0xC0400000</li>
 </ul>
@@ -16,7 +33,7 @@
 <ul>
 <li>Various fixes</li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2018/01/15/Meeting-12.html">Meeting 12</a></h1><p class="post-meta">January 15, 2018</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory Managment</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2018/01/15/Meeting-12">Meeting 12</a></h1><p class="post-meta">January 15, 2018</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory Managment</strong></p>
 <ul>
 <li>Merging <em>feature/paging</em> branch into master</li>
 </ul>
@@ -28,7 +45,7 @@
 <ul>
 <li>Bug-Fixing</li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2018/01/08/Meeting-11.html">Meeting 11</a></h1><p class="post-meta">January 8, 2018</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory Management</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2018/01/08/Meeting-11">Meeting 11</a></h1><p class="post-meta">January 8, 2018</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory Management</strong></p>
 <ul>
 <li><p>some more bugs pending</p>
 <ul>
@@ -58,7 +75,7 @@
 <li>including CGA to be used for debugging during system startup</li>
 </ul></li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/12/11/Meeting-10.html">Meeting 10</a></h1><p class="post-meta">December 11, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2017/12/11/Meeting-10">Meeting 10</a></h1><p class="post-meta">December 11, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory</strong></p>
 <ul>
 <li>I/O memory management implemented</li>
 </ul>
@@ -80,7 +97,7 @@
 <li>a static ring-buffer accessed by interrupts</li>
 <li>a chained event queue processed by several thread (one thread per event type)</li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/12/04/Meeting-9.html">Meeting 9</a></h1><p class="post-meta">December 4, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2017/12/04/Meeting-9">Meeting 9</a></h1><p class="post-meta">December 4, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Virtual Memory</strong></p>
 <ul>
 <li>management of physical and logical memory working</li>
 </ul>
@@ -102,7 +119,7 @@
 <li>interrupts need to deblock waiting threads when their I/O request are finished</li>
 <li>association of I/O-requests and waiting threads need to be discussed</li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/11/27/Meeting-8.html">Meeting 8</a></h1><p class="post-meta">November 27, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>I/O-Manager</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2017/11/27/Meeting-8">Meeting 8</a></h1><p class="post-meta">November 27, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>I/O-Manager</strong></p>
 <ul>
 <li><p>application thread will block on I/O and register I/O even object
 (containing state for I/O, e.g. buffer ptr, as well as a pointer to the thread object)</p></li>
@@ -135,7 +152,7 @@
 <ul>
 <li>bugfixes in BIOS call related to GDT</li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/11/20/Meeting-7.html">Meeting 7</a></h1><p class="post-meta">November 20, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>UHCI</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2017/11/20/Meeting-7">Meeting 7</a></h1><p class="post-meta">November 20, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>UHCI</strong></p>
 <ul>
 <li>configuration can be read</li>
 <li>endpoints are found</li>
@@ -162,7 +179,7 @@
 <li>bitmap files can be loaded from FAT and displayed</li>
 <li>printf was extended</li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/11/13/Meeting-6.html">Meeting 6</a></h1><p class="post-meta">November 13, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>VFS</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2017/11/13/Meeting-6">Meeting 6</a></h1><p class="post-meta">November 13, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>VFS</strong></p>
 <ul>
 <li>/dev directory allows device access for hard discs</li>
 <li>next steps include mounting of file systems</li>
@@ -183,7 +200,7 @@
 <ul>
 <li>4 KB is working (including bootstrapping using 4 MB pages)</li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/11/06/Meeting-5.html">Meeting 5</a></h1><p class="post-meta">November 6, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>AHCI</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2017/11/06/Meeting-5">Meeting 5</a></h1><p class="post-meta">November 6, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>AHCI</strong></p>
 <ul>
 <li>BIOS update did not help on the x60 machines</li>
 <li>will be tested with other hardware</li>
@@ -212,7 +229,7 @@
 <li>mappinh code for switching to real mode at lower address</li>
 </ul></li>
 </ul>
-</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/10/30/Meeting-4.html">Meeting 4</a></h1><p class="post-meta">October 30, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Process- and memory managemend</strong></p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2017/10/30/Meeting-4">Meeting 4</a></h1><p class="post-meta">October 30, 2017</p><div class="authorBlock"></div></header><article class="post-content"><div><span><p><strong>Process- and memory managemend</strong></p>
 <ul>
 <li>Kernel is mapped at 3GB</li>
 <li>first step with 4MB pages is realized</li>
@@ -237,4 +254,4 @@
 <li><p>Sempahore should be improved with use of a Spinlock</p></li>
 <li><p>existing Spinlock should be used for this</p></li>
 </ul>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-next" href="/blog/page2/">Next →</a></div></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo.png" alt="hhuOS" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/doc_overview.html">Getting Started with the Documentation</a></div><div><h5>Community</h5><a href="http://stackoverflow.com/questions/tagged/" target="_blank">Stack Overflow</a><a href="http://hhuos.slack.com/">Project Chat on Slack</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/hhuos/hhuos">GitHub</a><a href="/developers.html">Developer Showcase</a></div></section><section class="copyright">Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-next" href="/blog/page2/">Next →</a></div></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo_v2_dark.svg" alt="hhuOS" width="66"/></a><div><h5>Docs</h5><a href="/docs/en/doc_overview.html">Overview</a></div><div><h5>Community</h5><a href="http://stackoverflow.com/questions/tagged/hhuOS" target="_blank">Stack Overflow</a><a href="http://hhuos.slack.com/">Project Chat on Slack</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/hhuos/hhuos">GitHub</a><a href="/developers.html">Developer Showcase</a></div></section><section class="copyright">Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</section></footer></div></body></html>
