@@ -4,7 +4,7 @@
         <title>hhuOS Blog</title>
         <link>https://hhuOS.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest hhuOS news and events.</description>
-        <lastBuildDate>Mon, 22 Jan 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Aug 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,25 @@
             <link>https://hhuOS.github.io/blog</link>
         </image>
         <copyright>Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</copyright>
+        <item>
+            <title><![CDATA[Release 0.2]]></title>
+            <link>https://hhuOS.github.io/blog/2018/08/04/Release-0.2.html</link>
+            <guid>https://hhuOS.github.io/blog/2018/08/04/Release-0.2.html</guid>
+            <pubDate>Sat, 04 Aug 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>More than three months have passed, since we release hhuOS v0.1, but now we have finally decided to release the second version of hhuOS.<br>
+A lot of work has gone into fixing bugs. The system is now much more stable than it was, when we released versi</p>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Release 0.1]]></title>
+            <link>https://hhuOS.github.io/blog/2018/04/28/Release-0.1.html</link>
+            <guid>https://hhuOS.github.io/blog/2018/04/28/Release-0.1.html</guid>
+            <pubDate>Sat, 28 Apr 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>After six months of work, we are proud to present hhuOS version 0.1.<br>
+This our first release and there is still a lot to do, but it should give a good impression of how hhuOS will develope itself further down the road.</p>
+<p>You can get the release here:</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Meeting 13]]></title>
             <link>https://hhuOS.github.io/blog/2018/01/22/Meeting-13.html</link>

@@ -4,6 +4,8 @@
 <url> <loc>https://hhuOS.github.io/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/en/help" /> </url>
 <url> <loc>https://hhuOS.github.io/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/en/index" /> </url>
 <url> <loc>https://hhuOS.github.io/osguide</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/en/osguide" /> </url>
+<url> <loc>https://hhuOS.github.io/2018/08/04/Release-0.2</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/2018/04/28/Release-0.1</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://hhuOS.github.io/2018/01/22/Meeting-13</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://hhuOS.github.io/2018/01/15/Meeting-12</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://hhuOS.github.io/2018/01/08/Meeting-11</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
