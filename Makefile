@@ -10,7 +10,7 @@ clean-deps:
 install-deps:
 	@{ \
 	cd website; \
-	npm install; \
+	npm install --allow-root; \
 	}
 
 start-server:
