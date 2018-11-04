@@ -119,6 +119,19 @@ const Block = props => (
     </Container>
 );
 
+const Description = props => (
+    <Block>
+        {[
+            {
+                content: 'hhuOS is a small operating system written in C++ and Assembler for x86-architectures.',
+                image: imgUrl('sample_screenshot.png'),
+                imageAlign: 'right',
+                title: 'Description',
+            },
+        ]}
+    </Block>
+);
+
 const Features = props => (
     <Container>
         <Feature title="Paging" content="Higher Half Kernel" image={imgUrl('paging_logo.svg')}/>
@@ -133,20 +146,6 @@ const FeatureCallout = props => (
         <h2>Feature Callout</h2>
         <MarkdownBlock>These are a few features of this project</MarkdownBlock>
     </div>
-);
-
-
-const Description = props => (
-    <Block>
-        {[
-            {
-                content: 'hhuOS is a small operating system written in C++ and Assembler for x86-architectures.',
-                image: imgUrl('sample_screenshot.png'),
-                imageAlign: 'right',
-                title: 'Description',
-            },
-        ]}
-    </Block>
 );
 
 class Index extends React.Component {
@@ -167,3 +166,4 @@ class Index extends React.Component {
 }
 
 module.exports = Index;
+
