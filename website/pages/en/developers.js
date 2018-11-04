@@ -74,7 +74,7 @@ class DeveloperGrid extends React.Component {
                         <img src={imgUrl("github.svg")} style={{verticalAlign: "middle"}}/>
                     </a>
                     <a href={"mailto:" + dev.email + "?subject=hhuOS"}>
-                        <img src={imgUrl("message.bmp")} style={{verticalAlign: "middle"}}/>
+                        <img src={imgUrl("message.png")} style={{verticalAlign: "middle"}}/>
                     </a>
                 </div>
             </div>

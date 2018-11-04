@@ -124,7 +124,7 @@ const Description = props => (
         {[
             {
                 content: 'hhuOS is a small operating system written in C++ and Assembler for x86-architectures.',
-                image: imgUrl('sample_screenshot.bmp'),
+                image: imgUrl('screenshots/bootscreen.png'),
                 imageAlign: 'bottom',
                 title: 'Description',
             },
@@ -135,8 +135,10 @@ const Description = props => (
 const Features = props => (
     <Container>
         <Feature title="Paging" content="Higher Half Kernel" image={imgUrl('paging_logo.svg')}/>
-        <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules."
-                 image={imgUrl('module_loader.bmp')}/>
+        <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules." image={imgUrl('module_loader.png')}/>
+        <Feature title="Menu" content="A graphical menu with demo applications" image={imgUrl('screenshots/menu.png')}/>
+        <Feature title="Shell" content="A unix-like Shell" image={imgUrl('screenshots/shell.png')}/>
+        <Feature title="Bluescreen" content="In case of a crash, the system prints out a stacktrace for debugging purposes" image={imgUrl('screenshots/bluescreen.png')}/>
     </Container>
 );
 

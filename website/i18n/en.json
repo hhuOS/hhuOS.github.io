@@ -4,31 +4,67 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "A website for hhuOS",
-    "bios_call": "Bios Call",
-    "color": "Color",
-    "doc_overview": "Overview",
-    "fat": "FAT",
-    "fs_overview": "Overview",
-    "gui_overview": "Overview",
-    "modules": "Modules",
-    "paging_mm": "Memory and Paging",
-    "process_thread_overview": "Overview",
-    "process": "Process",
-    "scheduler": "Scheduler",
-    "thread": "Thread",
-    "TODOs": "TODOs",
-    "vesa": "VESA",
-    "vfs": "VFS",
-    "Docs": "Docs",
-    "ToDo's": "ToDo's",
-    "Help": "Help",
-    "Blog": "Blog",
-    "Overview": "Overview",
-    "Memory Managment and Paging": "Memory Managment and Paging",
-    "Processes and Threads": "Processes and Threads",
-    "Filesystem": "Filesystem",
-    "Components": "Components",
-    "GUI": "GUI"
+    "docs": {
+      "bios_call": {
+        "title": "Bios Call"
+      },
+      "color": {
+        "title": "Color"
+      },
+      "doc_overview": {
+        "title": "Overview"
+      },
+      "fat": {
+        "title": "FAT"
+      },
+      "fs_overview": {
+        "title": "Overview"
+      },
+      "gui_overview": {
+        "title": "Overview"
+      },
+      "modules": {
+        "title": "Modules"
+      },
+      "paging_mm": {
+        "title": "Memory and Paging"
+      },
+      "process_thread_overview": {
+        "title": "Overview"
+      },
+      "process": {
+        "title": "Process"
+      },
+      "scheduler": {
+        "title": "Scheduler"
+      },
+      "thread": {
+        "title": "Thread"
+      },
+      "TODOs": {
+        "title": "TODOs"
+      },
+      "vesa": {
+        "title": "VESA"
+      },
+      "vfs": {
+        "title": "VFS"
+      }
+    },
+    "links": {
+      "Docs": "Docs",
+      "ToDo's": "ToDo's",
+      "Help": "Help",
+      "Blog": "Blog"
+    },
+    "categories": {
+      "Overview": "Overview",
+      "Memory Managment and Paging": "Memory Managment and Paging",
+      "Processes and Threads": "Processes and Threads",
+      "Filesystem": "Filesystem",
+      "Components": "Components",
+      "GUI": "GUI"
+    }
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
