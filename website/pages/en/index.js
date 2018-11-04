@@ -124,7 +124,7 @@ const Description = props => (
         {[
             {
                 content: 'hhuOS is a small operating system written in C++ and Assembler for x86-architectures.',
-                image: imgUrl('sample_screenshot.png'),
+                image: imgUrl('sample_screenshot.bmp'),
                 imageAlign: 'right',
                 title: 'Description',
             },
@@ -136,7 +136,7 @@ const Features = props => (
     <Container>
         <Feature title="Paging" content="Higher Half Kernel" image={imgUrl('paging_logo.svg')}/>
         <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules."
-                 image={imgUrl('module_loader.png')}/>
+                 image={imgUrl('module_loader.bmp')}/>
     </Container>
 );
 
@@ -156,9 +156,9 @@ class Index extends React.Component {
             <div>
                 <HomeSplash language={language}/>
                 <div className="mainContainer">
+		    <Description/>
                     <FeatureCallout/>
                     <Features/>
-                    <Description/>
                 </div>
             </div>
         );
