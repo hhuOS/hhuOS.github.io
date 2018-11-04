@@ -32,10 +32,13 @@ class OSGuide extends React.Component {
                 <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', padding: '18px 0px'}}
                      className="pluginWrapper">
                     <div>
-                        <Video videosrc={videoUrl('hhuOS.webm')} description={'This video shows the VFS terminal.'}/>
+                        <Video videosrc={videoUrl('shell.webm')} description={'The hhuOS-Shell'}/>
                     </div>
                     <div>
-                        <Video videosrc={videoUrl('Asciimation.webm')} description={'A sample asciimotion.'}/>
+                        <Video videosrc={videoUrl('game.webm')} description={'Our demo game "Bug Defender"'}/>
+                    </div>
+                    <div>
+                        <Video videosrc={videoUrl('mouse.webm')} description={'hhuOS has support for PS2-compatible mice'}/>
                     </div>
                 </div>
             </Container>
@@ -44,3 +47,4 @@ class OSGuide extends React.Component {
 }
 
 module.exports = OSGuide;
+
