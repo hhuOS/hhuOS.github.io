@@ -125,7 +125,7 @@ const Description = props => (
             {
                 content: 'hhuOS is a small operating system written in C++ and Assembler for x86-architectures.',
                 image: imgUrl('sample_screenshot.bmp'),
-                imageAlign: 'right',
+                imageAlign: 'bottom',
                 title: 'Description',
             },
         ]}
