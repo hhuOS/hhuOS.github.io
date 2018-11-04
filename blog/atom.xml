@@ -2,12 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hhuOS.github.io/blog</id>
     <title>hhuOS Blog</title>
-    <updated>2018-08-04T06:00:00Z</updated>
+    <updated>2018-11-04T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://hhuOS.github.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest hhuOS news and events.</subtitle>
     <logo>https://hhuOS.github.io/img/logo_v2_light.svg</logo>
     <rights>Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</rights>
+    <entry>
+        <title type="html"><![CDATA[Release 0.2.1]]></title>
+        <id>https://hhuOS.github.io/blog/2018/11/04/Release-0.2.1.html</id>
+        <link href="https://hhuOS.github.io/blog/2018/11/04/Release-0.2.1.html">
+        </link>
+        <updated>2018-11-04T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>It has been exactly three months since the last release, and now we are proud to present hhuOS v0.2.1<br>
+This is mostly a bugfix release, but it also offers some new features, such as:</p>
+<ul>
+<li>Initial support for ISA-based SoundBlaster cards.</li>
+<li>New shell c</li>
+</ul>
+]]></summary>
+        <author>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release 0.2]]></title>
         <id>https://hhuOS.github.io/blog/2018/08/04/Release-0.2.html</id>
