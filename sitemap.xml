@@ -4,35 +4,35 @@
 <url> <loc>https://hhuOS.github.io/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/en/help" /> </url>
 <url> <loc>https://hhuOS.github.io/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/en/index" /> </url>
 <url> <loc>https://hhuOS.github.io/osguide</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/en/osguide" /> </url>
-<url> <loc>https://hhuOS.github.io/2018/11/04/Release-0.2.1</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2018/08/04/Release-0.2</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2018/04/28/Release-0.1</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2018/01/22/Meeting-13</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2018/01/15/Meeting-12</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2018/01/08/Meeting-11</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/12/11/Meeting-10</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/12/04/Meeting-9</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/11/27/Meeting-8</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/11/20/Meeting-7</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/11/13/Meeting-6</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/11/06/Meeting-5</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/10/30/Meeting-4</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/10/23/Meeting-3</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/10/16/Meeting-2</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/2017/10/09/Meeting-1</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
-<url> <loc>https://hhuOS.github.io/docs/bios_call</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/bios_call.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/color</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/color.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/doc_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/doc_overview.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/fat</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/fat.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/fs_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/fs_overview.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/gui_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/gui_overview.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/modules</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/modules.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/paging_mm</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/paging_mm.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/process_thread_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/process_thread_overview.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/process</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/process.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/scheduler</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/scheduler.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/thread</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/thread.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/TODOs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/TODOs.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/vesa</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/vesa.html" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/vfs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/vfs.html" /> </url>
+<url> <loc>https://hhuOS.github.io/blog/2018/11/04/Release-0.2.1</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2018/08/04/Release-0.2</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2018/04/28/Release-0.1</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2018/01/22/Meeting-13</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2018/01/15/Meeting-12</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2018/01/08/Meeting-11</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/12/11/Meeting-10</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/12/04/Meeting-9</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/11/27/Meeting-8</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/11/20/Meeting-7</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/11/13/Meeting-6</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/11/06/Meeting-5</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/10/30/Meeting-4</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/10/23/Meeting-3</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/10/16/Meeting-2</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/blog/2017/10/09/Meeting-1</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
+<url> <loc>https://hhuOS.github.io/docs/bios_call</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/bios_call" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/color</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/color" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/doc_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/doc_overview" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/fat</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/fat" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/fs_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/fs_overview" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/gui_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/gui_overview" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/modules</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/modules" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/paging_mm</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/paging_mm" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/process_thread_overview</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/process_thread_overview" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/process</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/process" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/scheduler</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/scheduler" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/thread</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/thread" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/TODOs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/TODOs" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/vesa</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/vesa" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/vfs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/vfs" /> </url>
 </urlset>

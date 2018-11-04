@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Modules · hhuOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="It is possible to extend _hhuOS_ with modules (written in C++) in a few simple steps. Each module is located in a folder that corresponds to its name. The base folder is located at `src/modules`. To implement and load a new module, which mounts a new virtual node and prints `Hello hhuOS` on reading it, the following steps can be followed."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Modules · hhuOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://hhuOS.github.io/index.html"/><meta property="og:description" content="It is possible to extend _hhuOS_ with modules (written in C++) in a few simple steps. Each module is located in a folder that corresponds to its name. The base folder is located at `src/modules`. To implement and load a new module, which mounts a new virtual node and prints `Hello hhuOS` on reading it, the following steps can be followed."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/logo_v2_dark.svg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="alternate" type="application/atom+xml" href="https://hhuOS.github.io/blog/atom.xml" title="hhuOS Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://hhuOS.github.io/blog/feed.xml" title="hhuOS Blog RSS Feed"/><link rel="stylesheet" href="/css/code-blocks-buttons.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-blocks-buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo_v2_light.svg" alt="hhuOS"/><h2 class="headerTitleWithLogo">hhuOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/doc_overview" target="_self">Docs</a></li><li class=""><a href="/docs/TODOs" target="_self">ToDo&#x27;s</a></li><li class=""><a href="/en/help" target="_self">Help</a></li><li class=""><a href="/blog" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Components</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Overview</h3><ul><li class="navListItem"><a class="navItem" href="/docs/doc_overview">Overview</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Memory Managment and Paging</h3><ul><li class="navListItem"><a class="navItem" href="/docs/paging_mm">Memory and Paging</a></li><li class="navListItem"><a class="navItem" href="/docs/bios_call">Bios Call</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Processes and Threads</h3><ul><li class="navListItem"><a class="navItem" href="/docs/process_thread_overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/scheduler">Scheduler</a></li><li class="navListItem"><a class="navItem" href="/docs/process">Process</a></li><li class="navListItem"><a class="navItem" href="/docs/thread">Thread</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Filesystem</h3><ul><li class="navListItem"><a class="navItem" href="/docs/fs_overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/fat">FAT</a></li><li class="navListItem"><a class="navItem" href="/docs/vfs">VFS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/modules">Modules</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">GUI</h3><ul><li class="navListItem"><a class="navItem" href="/docs/gui_overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/vesa">VESA</a></li><li class="navListItem"><a class="navItem" href="/docs/color">Color</a></li></ul></div></div></section></div><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Modules · hhuOS</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;It is possible to extend &lt;em&gt;hhuOS&lt;/em&gt; with modules (written in C++) in a few simple steps. Each module is located in a folder that corresponds to its name. The base folder is located at &lt;code&gt;src/modules&lt;/code&gt;. To implement and load a new module, which mounts a new virtual node and prints &lt;code&gt;Hello hhuOS&lt;/code&gt; on reading it, the following steps can be followed.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Modules · hhuOS"/><meta property="og:type" content="website"/><meta property="og:url" content="https://hhuOS.github.io/index.html"/><meta property="og:description" content="&lt;p&gt;It is possible to extend &lt;em&gt;hhuOS&lt;/em&gt; with modules (written in C++) in a few simple steps. Each module is located in a folder that corresponds to its name. The base folder is located at &lt;code&gt;src/modules&lt;/code&gt;. To implement and load a new module, which mounts a new virtual node and prints &lt;code&gt;Hello hhuOS&lt;/code&gt; on reading it, the following steps can be followed.&lt;/p&gt;
+"/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/logo_v2_dark.svg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="alternate" type="application/atom+xml" href="https://hhuOS.github.io/blog/atom.xml" title="hhuOS Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://hhuOS.github.io/blog/feed.xml" title="hhuOS Blog RSS Feed"/><link rel="stylesheet" href="/css/code-blocks-buttons.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/code-blocks-buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo_v2_light.svg" alt="hhuOS"/><h2 class="headerTitleWithLogo">hhuOS</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/doc_overview" target="_self">Docs</a></li><li class=""><a href="/docs/TODOs" target="_self">ToDo&#x27;s</a></li><li class=""><a href="/help" target="_self">Help</a></li><li class=""><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Components</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Overview</h3><ul><li class="navListItem"><a class="navItem" href="/docs/doc_overview">Overview</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Memory Managment and Paging</h3><ul><li class="navListItem"><a class="navItem" href="/docs/paging_mm">Memory and Paging</a></li><li class="navListItem"><a class="navItem" href="/docs/bios_call">Bios Call</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Processes and Threads</h3><ul><li class="navListItem"><a class="navItem" href="/docs/process_thread_overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/scheduler">Scheduler</a></li><li class="navListItem"><a class="navItem" href="/docs/process">Process</a></li><li class="navListItem"><a class="navItem" href="/docs/thread">Thread</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Filesystem</h3><ul><li class="navListItem"><a class="navItem" href="/docs/fs_overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/fat">FAT</a></li><li class="navListItem"><a class="navItem" href="/docs/vfs">VFS</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Components</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/docs/modules">Modules</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">GUI</h3><ul><li class="navListItem"><a class="navItem" href="/docs/gui_overview">Overview</a></li><li class="navListItem"><a class="navItem" href="/docs/vesa">VESA</a></li><li class="navListItem"><a class="navItem" href="/docs/color">Color</a></li></ul></div></div></section></div><script>
             document.addEventListener('DOMContentLoaded', function() {
               createToggler('#navToggler', '#docsNav', 'docsSliderActive');
               createToggler('#tocToggler', 'body', 'tocActive');
@@ -14,6 +16,10 @@
                 var toggler = document.querySelector(togglerSelector);
                 var target = document.querySelector(targetSelector);
 
+                if (!toggler) {
+                  return;
+                }
+
                 toggler.onclick = function(event) {
                   event.preventDefault();
 
@@ -24,15 +30,15 @@
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Modules</h1></header><article><div><span><p>It is possible to extend <em>hhuOS</em> with modules (written in C++) in a few simple steps. Each module is located in a folder that corresponds to its name. The base folder is located at <code>src/modules</code>. To implement and load a new module, which mounts a new virtual node and prints <code>Hello hhuOS</code> on reading it, the following steps can be followed.</p>
 <h2><a class="anchor" aria-hidden="true" id="preparations"></a><a href="#preparations" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Preparations</h2>
 <p>Since all modules need to be placed inside a folder corresponding to its names, a new folder has to be created. The name of the module will be <code>greeter</code>, so we execute the following commands within <code>src/modules</code>.</p>
-<pre><code class="hljs css languages- sh">mkdir greeter
+<pre><code class="hljs css language-sh">mkdir greeter
 <span class="hljs-built_in">cd</span> greeter
 </code></pre>
 <p>Inisde our new folder, we create two new files.</p>
-<pre><code class="hljs css languages- sh">touch Greeter.cc Greeter.h GreeterNode.cc GreeterNode.h
+<pre><code class="hljs css language-sh">touch Greeter.cc Greeter.h GreeterNode.cc GreeterNode.h
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="implementing-the-module"></a><a href="#implementing-the-module" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Implementing the module</h2>
 <p>Because a new type of <code>VirtualNode</code> is needed, we first implement the <code>GreeterNode</code> class. First we define the header file (<code>GreeterNode.h</code>) as follows.</p>
-<pre><code class="hljs css languages- c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">ifndef</span> __GreeterNode_include__</span>
+<pre><code class="hljs css language-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">ifndef</span> __GreeterNode_include__</span>
 <span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> __GreeterNode_include__</span>
 
 <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"kernel/filesystem/RamFs/VirtualNode.h"</span></span>
@@ -56,7 +62,7 @@
 <span class="hljs-meta">#<span class="hljs-meta-keyword">endif</span></span>
 </code></pre>
 <p>The actual implementation of the class is relatively simple. Besides checking the length, the buffer is simply copied over.</p>
-<pre><code class="hljs css languages- c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"GreeterNode.h"</span></span>
+<pre><code class="hljs css language-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"GreeterNode.h"</span></span>
 
 <span class="hljs-keyword">uint64_t</span> GreeterNode::getLength() {
     <span class="hljs-keyword">return</span> <span class="hljs-number">12</span>;
@@ -82,7 +88,7 @@
 }
 </code></pre>
 <p>In the next step, we implement the module itself. All modules must inherit from the base class <code>Module</code>, which specifies some functions that need to be overriden. Therefore we define a new class <code>Greeter</code>, which inherits from <code>Module</code>.</p>
-<pre><code class="hljs css languages- c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">ifndef</span> __Greeter_include__</span>
+<pre><code class="hljs css language-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">ifndef</span> __Greeter_include__</span>
 <span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> __Greeter_include__</span>
 
 <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"kernel/Module.h"</span></span>
@@ -105,7 +111,7 @@
 <span class="hljs-meta">#<span class="hljs-meta-keyword">endif</span></span>
 </code></pre>
 <p>The implementation is again relatively simple. As a first step, we implement <code>initialize</code>.</p>
-<pre><code class="hljs css languages- c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"Greeter.h"</span></span>
+<pre><code class="hljs css language-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"Greeter.h"</span></span>
 <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"GreeterNode.h"</span></span>
 <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"kernel/Kernel.h"</span></span>
 <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"kernel/services/FileSystem.h"</span></span>
@@ -122,7 +128,7 @@
 ...
 </code></pre>
 <p>Using <code>Kernel::getService</code> we query the <code>FileSystem</code> service and then mount our custom <code>GreeterNode</code> using the <code>FileSystem</code>'s <code>addVirtualNode</code> function. Finally, we return <code>0</code> to indicate that all operations have been performed successfully. Since removing <code>VirtualNode</code>s is not supported yet, <code>finalize</code> just returns <code>0</code>.</p>
-<pre><code class="hljs css languages- c++">...
+<pre><code class="hljs css language-c++">...
 
 <span class="hljs-keyword">int32_t</span> Greeter::finalize() {
 
@@ -132,7 +138,7 @@
 ...
 </code></pre>
 <p>The operating system identifies all modules using their unique names. Therefore each module must provide its name through <code>getName</code>.</p>
-<pre><code class="hljs css languages- c++">...
+<pre><code class="hljs css language-c++">...
 
 String Greeter::geName() {
 
@@ -142,7 +148,7 @@ String Greeter::geName() {
 ...
 </code></pre>
 <p>Additionally each module can specify its dependencies within <code>getDependencies</code>. Since hhuOS does not currently support linking modules against each other at runtime, this function can be used to implement such a feature. In our case we just return an empty list.</p>
-<pre><code class="hljs css languages- c++">...
+<pre><code class="hljs css language-c++">...
 
 Util::Array&lt;String&gt; Greeter::getDependencies() {
 
@@ -152,7 +158,7 @@ Util::Array&lt;String&gt; Greeter::getDependencies() {
 ...
 </code></pre>
 <p>The last step includes providing an instance of the module to the operating system. The macro <code>MODULE_PROVIDER</code> can be used for this task.</p>
-<pre><code class="hljs css languages- c++">...
+<pre><code class="hljs css language-c++">...
 
 MODULE_PROVIDER {
 
@@ -160,15 +166,15 @@ MODULE_PROVIDER {
 };
 </code></pre>
 <p>After all steps have been completed, we change to the main directory and execute the following command.</p>
-<pre><code class="hljs css languages- sh">make modules
+<pre><code class="hljs css language-sh">make modules
 </code></pre>
 <p>This task will compile all modules located under <code>src/modules</code> and put them inside <code>src/initrd/mod</code>. Loading the initial ramdisk is not currently supported. Therefore we copy the module (<code>greeter.ko</code>) and put it inside <code>src/hdd/mod</code>. All files within <code>src/hdd</code> will be accessible through the filesystem.</p>
 <h2><a class="anchor" aria-hidden="true" id="loading-the-module"></a><a href="#loading-the-module" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading the module</h2>
 <p>Within the operating systems shell we can issue the following commands to load our new module.</p>
-<pre><code class="hljs css languages- sh">insmod /mod/greeter.ko
+<pre><code class="hljs css language-sh">insmod /mod/greeter.ko
 </code></pre>
 <p>Alternatively, we can also load modules programmatically using the <code>ModuleLoader</code> service.</p>
-<pre><code class="hljs css languages- c++">...
+<pre><code class="hljs css language-c++">...
 
 File *<span class="hljs-keyword">module</span> = File::open(<span class="hljs-string">"/mod/greeter.ko"</span>, <span class="hljs-string">"r+"</span>);
 
@@ -179,4 +185,4 @@ loader-&gt;load(<span class="hljs-keyword">module</span>);
 ...
 </code></pre>
 <p>Note however that this is only possible after the filesystem has been initialized.</p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/vfs">← VFS</a><a class="docs-next button" href="/docs/gui_overview">Overview →</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#preparations">Preparations</a></li><li><a href="#implementing-the-module">Implementing the module</a></li><li><a href="#loading-the-module">Loading the module</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo_v2_dark.svg" alt="hhuOS" width="66"/></a><div><h5>Docs</h5><a href="/docs/en/doc_overview.html">Overview</a></div><div><h5>Community</h5><a href="http://stackoverflow.com/questions/tagged/hhuOS" target="_blank">Stack Overflow</a><a href="http://hhuos.slack.com/">Project Chat on Slack</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/hhuos/hhuos">GitHub</a><a href="/developers.html">Developer Showcase</a></div></section><section class="copyright">Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/vfs"><span class="arrow-prev">← </span><span>VFS</span></a><a class="docs-next button" href="/docs/gui_overview"><span>Overview</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#preparations">Preparations</a></li><li><a href="#implementing-the-module">Implementing the module</a></li><li><a href="#loading-the-module">Loading the module</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo_v2_dark.svg" alt="hhuOS" width="66"/></a><div><h5>Docs</h5><a href="/docs/en/doc_overview.html">Overview</a></div><div><h5>Community</h5><a href="http://stackoverflow.com/questions/tagged/hhuOS" target="_blank">Stack Overflow</a><a href="http://hhuos.slack.com/">Project Chat on Slack</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/hhuos/hhuos">GitHub</a><a href="/developers.html">Developer Showcase</a></div></section><section class="copyright">Copyright © 2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</section></footer></div></body></html>
