@@ -18,15 +18,15 @@ class Help extends React.Component {
     const supportLinks = [
       {
         content:
-          'Learn more using the [documentation on this site](/docs/doc_overview.html).',
+          'Learn more using the [documentation on this site](https://hhuos.github.io/docs/doc_overview).',
         title: 'Browse Docs',
       },
       {
-        content: 'Ask questions about the documentation and project on [Slack](http://hhuos.slack.com).',
+        content: 'Ask questions about the documentation and project on [Slack](https://hhuos.slack.com).',
         title: 'Join the Slack Community',
       },
       {
-        content: "Find out what's new with this project",
+        content: "Find out what's new with this project by reading our [blog](https://hhuos.github.io/blog/)",
         title: 'Stay up to date',
       },
     ];
