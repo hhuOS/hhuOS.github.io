@@ -135,9 +135,9 @@ const Description = props => (
 const Features = props => (
     <Container>
         <Feature title="Paging" content="Paging is used to abstract from physical memory. This allows hhuOS to use a Higher half kernel. It is also possible to create an arbitrary number of virtual address spaces, which will be used in the future, to launch processes with independent adress spaces. For further reference" image={imgUrl('paging.svg')}/>
-        <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules. These modules are loaded by the filesystem and linked agains the kernel at runtime. This makes it possible to keep the kernel minimalistic while offering features, when they are needed." image={imgUrl('module_loader.png')}/>
+        <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules. These modules are loaded by the filesystem and linked against the kernel at runtime. This makes it possible to keep the kernel minimalistic while offering features, when they are needed." image={imgUrl('module_loader.png')}/>
         <Feature title="Menu" content="After the system has booted succesfully, the user is greeted by graphical menu with demo applications." image={imgUrl('screenshots/menu.png')}/>
-        <Feature title="Shell" content="The os offers a simple unix-like Shell, allowing the user to interact with the filesystem." image={imgUrl('screenshots/shell.png')}/>
+        <Feature title="Shell" content="The operating offers a simple unix-like Shell, allowing the user to interact with the filesystem." image={imgUrl('screenshots/shell.png')}/>
         <Feature title="Bluescreen" content="In case of a system crash, an informative bluescreen with a stacktrace and the cpu state is shown for debugging purposes." image={imgUrl('screenshots/bluescreen.png')}/>
     </Container>
 );
