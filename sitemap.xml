@@ -32,7 +32,7 @@
 <url> <loc>https://hhuOS.github.io/docs/process</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/process" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/scheduler</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/scheduler" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/thread</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/thread" /> </url>
-<url> <loc>https://hhuOS.github.io/docs/TODOs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/TODOs" /> </url>
+<url> <loc>https://hhuOS.github.io/docs/todos</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/todos" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/vesa</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/vesa" /> </url>
 <url> <loc>https://hhuOS.github.io/docs/vfs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://hhuOS.github.io/docs/vfs" /> </url>
 </urlset>
