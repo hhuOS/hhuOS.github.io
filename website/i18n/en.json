@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for hhuOS",
+    "tagline": "hhuOS - A small operating system for learning purposes",
     "docs": {
       "bios_call": {
         "title": "Bios Call"
