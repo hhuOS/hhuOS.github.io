@@ -17,6 +17,7 @@ const siteConfig = {
         {page: 'osguide', label: 'Videos'},
         {doc: 'todos', label: "TODOs"},
         {blog: true, label: 'Blog'},
+        {page: 'developers', label: 'Team'},
         {page: 'help', label: 'Help'},
     ],
 	onPageNav: 'separate',

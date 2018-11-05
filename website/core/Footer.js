@@ -33,7 +33,7 @@ class Footer extends React.Component {
                         )}
                     </a>
                     <div>
-                        <h5>Docs</h5>
+                        <h5>Documetation</h5>
                         <a href={this.docUrl('doc_overview.html', this.props.language)}>
                             Overview
                         </a>
@@ -52,7 +52,7 @@ class Footer extends React.Component {
                         <h5>More</h5>
                         <a href={this.props.config.baseUrl + 'blog'}>Blog</a>
                         <a href={this.props.config.repoUrl}>GitHub</a>
-                        <a href={this.pageUrl("developers.html")}>Developer Showcase</a>
+                        <a href={this.pageUrl("developers.html")}>Team Members</a>
                     </div>
                 </section>
                 <section className="copyright">
