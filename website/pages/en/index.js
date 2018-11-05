@@ -94,7 +94,7 @@ class HomeSplash extends React.Component {
         let language = this.props.language || '';
         return (
             <SplashContainer>
-                <img width='30%' src={imgUrl('logo_v2.svg')}/>
+                <img width='30%' src={imgUrl('logo_v3.svg')}/>
                 <div className="inner">
                     <ProjectTitle/>
                     <PromoSection>
@@ -134,7 +134,7 @@ const Description = props => (
 
 const Features = props => (
     <Container>
-        <Feature title="Paging" content="Paging is used to abstract from physical memory. This allows hhuOS to use a Higher half kernel. It is also possible to create an arbitrary number of virtual address spaces, which will be used in the future, to launch processes with independent adress spaces. For further reference" image={imgUrl('paging_logo.svg')}/>
+        <Feature title="Paging" content="Paging is used to abstract from physical memory. This allows hhuOS to use a Higher half kernel. It is also possible to create an arbitrary number of virtual address spaces, which will be used in the future, to launch processes with independent adress spaces. For further reference" image={imgUrl('paging.svg')}/>
         <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules. These modules are loaded by the filesystem and linked agains the kernel at runtime. This makes it possible to keep the kernel minimalistic while offering features, when they are needed." image={imgUrl('module_loader.png')}/>
         <Feature title="Menu" content="After the system has booted succesfully, the user is greeted by graphical menu with demo applications." image={imgUrl('screenshots/menu.png')}/>
         <Feature title="Shell" content="The os offers a simple unix-like Shell, allowing the user to interact with the filesystem." image={imgUrl('screenshots/shell.png')}/>
@@ -146,7 +146,7 @@ const FeatureCallout = props => (
     <div
         className="productShowcaseSection paddingBottom">
         <h2>Feature Callout</h2>
-        <MarkdownBlock>These are a few features of this project</MarkdownBlock>
+        <MarkdownBlock>Below, you can find a few features of hhuOS. For further reference, see our [documentation section](https://hhuos.github.io/docs/doc_overview).</MarkdownBlock>
     </div>
 );
 

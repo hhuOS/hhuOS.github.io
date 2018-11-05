@@ -21,9 +21,9 @@ const siteConfig = {
     ],
 	onPageNav: 'separate',
     /* path to images for header/footer */
-    headerIcon: 'img/logo_v2_light.svg',
-    footerIcon: 'img/logo_v2_dark.svg',
-    favicon: 'img/logo_v2_dark.svg',
+    headerIcon: 'img/logo_v3_light.svg',
+    footerIcon: 'img/logo_v3_dark.svg',
+    favicon: 'img/logo_v3.svg',
     /* colors for website */
     colors: {
         primaryColor: '#006AB3',

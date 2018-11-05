@@ -52,10 +52,10 @@
       }
     },
     "links": {
-      "Docs": "Docs",
-      "ToDo's": "ToDo's",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Documentation": "Documentation",
+      "TODOs": "TODOs",
+      "Blog": "Blog",
+      "Help": "Help"
     },
     "categories": {
       "Overview": "Overview",
