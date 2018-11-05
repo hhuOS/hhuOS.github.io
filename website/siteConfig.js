@@ -7,7 +7,7 @@
 
 const siteConfig = {
     title: 'hhuOS' /* title for your website */,
-    tagline: 'A website for hhuOS',
+    tagline: 'hhuOS - A small operating system for learning purposes',
     url: 'https://hhuOS.github.io' /* your website url */,
     cleanUrl: true,
     baseUrl: '/' /* base url for your project */,
@@ -84,3 +84,4 @@ const siteConfig = {
 
 
 module.exports = siteConfig;
+
