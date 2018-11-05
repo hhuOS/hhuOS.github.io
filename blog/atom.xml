@@ -14,7 +14,7 @@
         <link href="https://hhuOS.github.io/blog/2018/11/04/Release-0.2.1.html">
         </link>
         <updated>2018-11-04T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>It has been exactly three months since the last release, and now we are proud to present hhuOS v0.2.1<br> This is mostly a bugfix release, but it also offers some new features, such as:</p> <ul> <li>Initial support for ISA-based SoundBlaster cards.</li> <li>New shell command...</li></ul>]]></summary>
+        <summary type="html"><![CDATA[<p>It has been exactly three months since the last release, and now we are proud to present hhuOS v0.2.1.<br> This is mostly a bugfix release, but it also offers some new features, such as:</p> <ul> <li>Initial support for ISA-based SoundBlaster cards.</li> <li>New shell comman...</li></ul>]]></summary>
         <author>
         </author>
     </entry>
