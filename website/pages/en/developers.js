@@ -85,9 +85,7 @@ class DeveloperGrid extends React.Component {
         return (
             <div className="container">
                 <h2 style={{fontWeight: 'bold'}}>Team</h2>
-                <p>
-                    The members of hhuOS are all from the Heinrich-Heine University Duesseldorf.
-                </p>
+                <p>hhuOS is being developed by a team of students at the Heinrich-Heine University in Düsseldorf.</p>
 
                 <div className="showcaseSection">
                     {this.props.team.map(this.renderDeveloper, this)}
