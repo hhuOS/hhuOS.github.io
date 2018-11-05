@@ -14,7 +14,7 @@ const siteConfig = {
     projectName: 'hhuOS',
     headerLinks: [
         {doc: 'doc_overview', label: 'Documentation'},
-        /*TODO: Add code doc to header link*/
+        {page: 'osguide', label: 'Videos'},
         {doc: 'todos', label: "TODOs"},
         {blog: true, label: 'Blog'},
         {page: 'help', label: 'Help'},
