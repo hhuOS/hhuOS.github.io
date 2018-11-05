@@ -15,7 +15,7 @@ const siteConfig = {
     headerLinks: [
         {doc: 'doc_overview', label: 'Documentation'},
         /*TODO: Add code doc to header link*/
-        {doc: 'TODOs', label: "TODOs"},
+        {doc: 'todos', label: "TODOs"},
         {blog: true, label: 'Blog'},
         {page: 'help', label: 'Help'},
     ],
@@ -23,7 +23,7 @@ const siteConfig = {
     /* path to images for header/footer */
     headerIcon: 'img/logo_v3_light.svg',
     footerIcon: 'img/logo_v3_dark.svg',
-    favicon: 'img/logo_v3.svg',
+    favicon: 'img/favicon.ico',
     /* colors for website */
     colors: {
         primaryColor: '#006AB3',

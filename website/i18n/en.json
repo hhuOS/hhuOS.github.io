@@ -41,8 +41,8 @@
       "thread": {
         "title": "Thread"
       },
-      "TODOs": {
-        "title": "TODOs"
+      "todos": {
+        "title": "todos"
       },
       "vesa": {
         "title": "VESA"
