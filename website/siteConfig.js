@@ -13,11 +13,11 @@ const siteConfig = {
     baseUrl: '/' /* base url for your project */,
     projectName: 'hhuOS',
     headerLinks: [
-        {doc: 'doc_overview', label: 'Docs'},
+        {doc: 'doc_overview', label: 'Documentation'},
         /*TODO: Add code doc to header link*/
-        {doc: 'TODOs', label: "ToDo's"},
-        {page: 'help', label: 'Help'},
+        {doc: 'TODOs', label: "TODOs"},
         {blog: true, label: 'Blog'},
+        {page: 'help', label: 'Help'},
     ],
 	onPageNav: 'separate',
     /* path to images for header/footer */
@@ -31,7 +31,7 @@ const siteConfig = {
     },
     // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
     copyright:
-    'Copyright © ' +
+    'Copyright © 2017-' +
     new Date().getFullYear() +
     ' Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner',
     organizationName: 'hhuOS', // or set an env variable ORGANIZATION_NAME
