@@ -138,7 +138,7 @@ const Features = props => (
         <Feature title="Kernel Module Loader" content="It is possible to extend hhuOS with kernel modules. These modules are loaded by the filesystem and linked against the kernel at runtime. This makes it possible to keep the kernel minimalistic, while offering features, when they are needed." image={imgUrl('module_loader.png')}/>
         <Feature title="Menu" content="After the system has booted succesfully, the user is greeted by a graphical menu with demo applications." image={imgUrl('screenshots/menu.png')}/>
         <Feature title="Shell" content="The operating system offers a simple Unix-like Shell, allowing the user to interact with the filesystem." image={imgUrl('screenshots/shell.png')}/>
-        <Feature title="Bluescreen" content="In case of a system crash, an informative bluescreen, which prints out the stacktrace cpu state, is shown for debugging purposes." image={imgUrl('screenshots/bluescreen.png')}/>
+        <Feature title="Bluescreen" content="In case of a system crash, an informative bluescreen, which prints out the stacktrace and cpu state, is shown for debugging purposes." image={imgUrl('screenshots/bluescreen.png')}/>
     </Container>
 );
 
