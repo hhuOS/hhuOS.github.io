@@ -4,7 +4,7 @@
         <title>hhuOS Blog</title>
         <link>https://hhuOS.github.io/blog</link>
         <description>The best place to stay up-to-date with the latest hhuOS news and events.</description>
-        <lastBuildDate>Sun, 04 Nov 2018 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Jan 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -12,7 +12,14 @@
             <url>https://hhuOS.github.io/img/logo_v3_light.svg</url>
             <link>https://hhuOS.github.io/blog</link>
         </image>
-        <copyright>Copyright © 2017-2018 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</copyright>
+        <copyright>Copyright © 2017-2019 Burak Akguel, Christian Gesse, Fabian Ruhland, Filip Krakowski, Michael Schoettner</copyright>
+        <item>
+            <title><![CDATA[Release 0.2.2]]></title>
+            <link>https://hhuOS.github.io/blog/2019/01/18/Release-0.2.2.html</link>
+            <guid>https://hhuOS.github.io/blog/2019/01/18/Release-0.2.2.html</guid>
+            <pubDate>Fri, 18 Jan 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Today we released hhuOS v0.2.2.<br> This release contains some bugfixes and many changes under the hood, such as:</p> <ul> <li>An improved scheduler, that now supports priorities</li> <li>A more efficent way of handling interrupts and support for interrupted interrupts</li> <li>Initi...</li></ul>]]></description>
+        </item>
         <item>
             <title><![CDATA[Release 0.2.1]]></title>
             <link>https://hhuOS.github.io/blog/2018/11/04/Release-0.2.1.html</link>
