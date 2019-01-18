@@ -15,10 +15,10 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.5.1"
+    "docusaurus": "^1.6.2"
   },
   "dependencies": {
-    "gulp-imagemin": "^4.1.0",
+    "gulp-imagemin": "^5.0.3",
     "npm": "^6.4.1"
   }
 }
