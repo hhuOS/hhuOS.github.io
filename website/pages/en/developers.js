@@ -24,14 +24,14 @@ class DeveloperGrid extends React.Component {
         if(contributor.github) {
             githubDiv =
                 <div style={{alignItems: "center", justifyContent: "center", margin: 10}}>
-                    <a href={contributor.github}>
+                    <a href={contributor.github} target="_blank">
                         <img src={imgUrl("github.svg")} style={{verticalAlign: "middle"}}/>
                     </a>
                 </div>;
         }
 
         return (
-            <div style={{display: 'inline-block', margin: 20}}>
+            <div style={{display: 'inline-block', margin: 20, width: 300}}>
                 <p style={{fontWeight: 'bold'}}>{contributor.name}</p>
                 <p>{contributor.topic}</p>
                 {githubDiv}
@@ -44,7 +44,7 @@ class DeveloperGrid extends React.Component {
             return(
                 <div className="container">
                     <h2 style={{fontWeight: 'bold'}}>Contributors</h2>
-                    <p>There are contributor.</p>
+                    <p><u>These people have contributed to hhuOS:</u></p>
 
                     <div className="showcaseSection">
                         {this.props.contributor.map(this.renderContributor, this)}
@@ -70,7 +70,7 @@ class DeveloperGrid extends React.Component {
                 <img style={{width: 128}} src={dev.image}/>
 
                 <div style={{alignItems: "center", justifyContent: "center", margin: 10}}>
-                    <a href={dev.github}>
+                    <a href={dev.github} target="_blank">
                         <img src={imgUrl("github.svg")} style={{verticalAlign: "middle"}}/>
                     </a>
                     <a href={"mailto:" + dev.email + "?subject=hhuOS"}>
@@ -85,7 +85,7 @@ class DeveloperGrid extends React.Component {
         return (
             <div className="container">
                 <h2 style={{fontWeight: 'bold'}}>Team</h2>
-                <p>hhuOS is being developed by a team of students at the Heinrich-Heine University in Düsseldorf.</p>
+                <p><u>hhuOS is being developed by a team of students at the Heinrich-Heine-University Düsseldorf:</u></p>
 
                 <div className="showcaseSection">
                     {this.props.team.map(this.renderDeveloper, this)}

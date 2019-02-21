@@ -80,7 +80,13 @@ const siteConfig = {
             email: "michael.schoettner@hhu.de"
         }
     ],
-    contributor: ""
+    contributor: [
+        {
+            name: "Thiemo Urselmann",
+            topic: "Bachelor thesis: 'Development of an Ethernet software package for the Intel/PRO-1000 network adapter'",
+            github: "https://github.com/Batman140"
+        }
+    ]
 };
 
 
