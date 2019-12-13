@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "gulp-imagemin": "^5.0.3",
-    "npm": "^6.10.1"
+    "npm": "^6.13.4"
   }
 }
